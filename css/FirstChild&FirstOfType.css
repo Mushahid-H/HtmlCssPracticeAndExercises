@@ -1,0 +1,25 @@
+p:first-child{
+    /* Will select the the first-chile, first appearing p tag of every element, 
+    be that body, section or header etc. */
+    color:tomato;
+    background-color:thistle;
+    font-style: italic;
+}
+
+a:first-of-type{
+     /* If the specified element have not already been encountered, it will be selected.  be that in body, section or header etc. */
+    color:rgb(32, 5, 82);
+    background-color: yellowgreen;
+    font-size: large;
+}
+h3:last-of-type{
+     /* If the specified element is at the  last position, it will be selected.  be that in body,, section or header etc. */
+    color:rgb(0, 255, 208);
+    background-color: brown;
+    font-size: 20px;
+}
+h2:last-child{
+         /* Will select the the last-child, last appearing h2 tag of every element, 
+    be that body, section or header etc. */
+    color:darkred;
+}
