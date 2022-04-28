@@ -1,0 +1,16 @@
+p:nth-child(3){
+    /* This one will select the specified child, which in this case is third child of a an element tag. */
+    background-color: aqua;
+    color:blueviolet;
+    font-size: 25px;
+    font-weight: 300px;
+}
+
+a:nth-of-type(2){
+    /* this one will select every spcified no. of child of elments of tag, in this case it will select every
+    second a tag. */
+    background-color: rgb(80, 63, 146);
+    color:rgb(213, 152, 21);
+    font-size: 25px;
+    font-weight: 300px;
+}
