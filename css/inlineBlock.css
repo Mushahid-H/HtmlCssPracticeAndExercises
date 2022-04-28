@@ -1,0 +1,26 @@
+h1, h2{
+    /* Example of block */
+    border: 2px solid blue;
+    /* even if we reduce the width these still will start from new line. */
+    width: 500px;
+    /* we can give margin and padding as usual */
+    margin: 50px;
+    padding: 40px;
+    /* we can convert block elements into inline using display attribute. */
+    display: inline;
+}
+a{ 
+    /* Example of inline */
+    border: 3px solid red;
+    /* width or heigth change will have no effect */
+    width: 500px;
+    height: 400px;
+    /* It will not take, top and bottom margin */
+    margin: 100px;
+    /* padding however can be given , but again top and bottom padding will mess up thing as elements will 
+    overlay other elements. */
+    padding: 100px;
+
+    /* It too can be converted into block using display attribute. */
+    display: block;
+}

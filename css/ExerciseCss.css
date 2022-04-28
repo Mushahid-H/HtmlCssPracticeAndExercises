@@ -1,0 +1,14 @@
+.divClass{
+    background-color:  rgb(156, 154, 154);
+}
+
+.divClass2{
+    background-color: rgb(160, 154, 154);
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+#heading{
+    color:green;
+}

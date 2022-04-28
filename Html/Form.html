@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Forms</title>
+    </head>
+    <body>
+        <h1>Create Forms</h1>
+        
+        <form>
+            <!--Simple Form with addition of placehoder and required attributes-->
+            <label for="usrnme">Username : </label>
+            <input type="text" id="usrnme" placeholder="Enter your username" required>
+            <br> <br>
+
+            <label for="pswd">Password : </label>
+            <input type="password" id="pswd" required>
+            <br> <br>
+
+            <label for="eml">Email : </label>
+            <input type="email" id="eml" required>
+            <br> <br>
+            
+          
+        <!--  Can also make a button to use in place of input as below.
+            <button type="submit">Sign in</button>
+        -->
+
+         <!--Adding Radio Buttons-->
+            <p>Select Your Gender: </p> 
+            
+            <label for="ml">Male</label>
+            <input type="radio" id="ml" name="Gender" >
+
+            <label for="fl">Female</label>
+            <input type="radio" id="fl" name="Gender">
+
+            <label for="othr">Other</label>
+            <input type="radio" id="othr" name="Gender">
+            <br> <br>
+            
+          
+            <!--DropDown List-->
+           
+            <label for="age-group">Select your Age Group: </label>
+            <select id="age-group">
+                <option value="5-10">5-10</option>
+                <option value="11-19">11-19</option>
+                <option value="20-40">20-40</option>
+                <option value="40+"">40+</option>
+            </select>
+            <br> <br>
+
+            <!--Date, color and file choosing option tags-->
+            <label>Enter your Date of Birth: </label>
+            <input type="date">
+            <br><br>
+            
+            
+            <label>Pick a color to Write: </label>
+            <input type="color" name="" id="">
+            <br> <br>
+
+            <label>Submit Documents: </label> <br>
+            <input type="file" name="" id="">
+            <br> <br>
+
+            <label>Enter why you chose us: </label><br>
+            <textarea rows="10" columns="10" placeholder="write here"></textarea>
+            <br>
+            
+            <input type="submit" value="Sign in"> 
+        </form>     
+
+    </body>
+</html>

@@ -1,0 +1,26 @@
+/* *{
+    color: red;
+ } */
+ header{
+    background-color: aquamarine;
+    color:rgb(154, 106, 48)
+}
+
+section.section_class{
+    background-color: firebrick;
+}
+/* section.section_class p{
+    color:white;
+} */
+header h1{
+    color:blue;
+}
+li a{
+    color: black;
+} 
+section.section_class > h1{
+    color:white;
+}
+h1+p{
+    color:rgba(69, 2, 26, 0.662)
+}

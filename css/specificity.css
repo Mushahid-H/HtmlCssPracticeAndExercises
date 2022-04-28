@@ -1,0 +1,50 @@
+/*  Specificity can be thought of as operator precedence in programming language. It 
+tells us which styling type is decribing the text more specifically */
+
+/* Inline style > id style > class style > element style */
+
+h1{
+    color: red;
+    background-color: aquamarine;
+}
+
+.h1heading{
+    color: royalblue;
+    background-color: brown;
+}
+
+#h1id{
+    color: azure;
+    background-color: black;
+}
+    /* incase we give two classes to same element, then the one applied later in css file will be applied. here head2 is applied, instead of h1heading2  */
+.head2{
+    color: chartreuse;
+    background-color: darkblue;
+}
+
+
+
+/* How to calculate specificity */
+    /* We take four number in order of above specified, and calculate according to that */
+        /* No. for inline, for id, for class, for element,   as done below */
+div{
+    background-color: grey;
+}
+/* calculating specificity: inline style 0, id 0, class 0,element 1. So specificity is 0001 */
+
+div#container ul.collection li.important{
+    color: rgb(224, 252, 175);
+    background-color: rgba(64, 7, 70, 0.45);
+}
+/*  calculating specificity: inline style 0, id 1, class 2, element 3. So specificity is 0123 */
+
+div#container ul.collection li#fa{
+    color: darkolivegreen;
+    background-color: darkred;
+}
+
+/*  calculating specificity: inline style 0, id 2, class 1, element 3. So specificity is 0213 */
+
+
+

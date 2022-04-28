@@ -1,0 +1,14 @@
+/* First way is same as second, first is just a shorhand of second. */
+h1{
+    border: 4px Solid red;
+    /* for round corners we use */
+    border-radius: 10px; 
+
+}
+p{
+    border-width: 5px;
+    /* we have different style, like dashed, dotted etc. */
+    border-style: double;
+    border-color: black; 
+
+}

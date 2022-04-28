@@ -1,0 +1,18 @@
+/* .externalCss{
+    color:blueviolet;
+    background-color: black;
+} */
+
+
+/*For fonts*/
+
+/* This is done when you use google fonts by importing it form google using provided @import */
+    /*  @import url('https://fonts.googleapis.com/css2?family=Akshar:wght@300;400&display=swap'); */
+
+body{
+    /* font-family: Arial, Helvetica, sans-serif; */
+    font-family: 'Akshar', sans-serif;
+    font-weight: 400;
+    /* color: rgba(122, 56, 44, 0.97);*/
+    color:#3f6b4b;
+} 

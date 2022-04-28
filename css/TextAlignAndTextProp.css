@@ -1,0 +1,18 @@
+body{
+    /* text-align: center; */
+}
+h2{
+    background-color: blueviolet;
+    text-align: center;
+}
+a{
+    background-color: aqua;
+}
+p{
+    background-color:aquamarine;
+    font-size: 30px;
+    line-height: 50px;
+    word-spacing: 10px;
+    letter-spacing: 10px;
+    text-decoration: underline double ;
+}

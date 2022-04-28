@@ -1,0 +1,26 @@
+a:link{
+    color: red;
+}
+a:visited{
+    color: blueviolet;
+}
+a:hover{
+    color:aqua;
+    font-size: 20px;
+}
+a:active{
+    color:brown;
+}
+input:focus{
+    color:crimson;
+    border:2px solid blue;
+    padding:10px;
+    
+}
+input{
+    margin: 5px;
+}
+form{
+   
+    background-color: darkgrey;
+}

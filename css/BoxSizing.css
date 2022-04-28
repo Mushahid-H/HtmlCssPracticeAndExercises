@@ -1,0 +1,26 @@
+hr{
+    width: 500px;
+    margin: 0;  
+    /* border: 500px solid red; */
+}
+.box1{
+    /* Normally what happens is when we make a box in html and even if we fixed its width
+   but if we add borders and/or padding to it, it will still not maintain its property of being width fixed. */
+    border: 5px solid black;
+    width: 500px;
+    background-color: tomato;
+    padding: 20px;
+    
+}
+
+.box2{
+    /* To overcome this problem we have an attribute box sizing which will adjust the content and 
+    keep elements width fixed. */
+    margin-top: 20px;
+    box-sizing: border-box;
+    border: 5px solid black;
+    width: 500px;
+    background-color: tomato;
+    padding: 20px;
+    
+}
