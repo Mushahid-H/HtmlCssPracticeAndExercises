@@ -1,0 +1,30 @@
+p::first-letter{
+    /* This will increade the size of the first letter of the paragraph */
+    font-size:30px;
+}
+
+body::first-line{
+    /* This will increase the size of the first line of body tag */
+    font-size:30px;
+}
+::selection{
+    /* here we are changing the color of text and its background when we select it. */
+    /* This is apply on all the elements.but you can also make it more specific by adding element name befor the colons */
+    color:rgb(226, 43, 144);
+    background-color: aqua;
+}
+h2::before{
+/* this and another "after" sudo elements are inline elements and can only be used with text elements they cannot be used with br,img,input etc. */
+    content:"Hello! Mr..";
+    color: rgb(129, 6, 170);
+    border: 5px dotted black;
+
+}
+p#trd::after{
+    content:"Hello! Mr..";
+    font-size: 50px;
+    color: rgb(23, 209, 190);
+    border: 5px dashed rgb(233, 49, 49);
+    display:block;
+    
+}
