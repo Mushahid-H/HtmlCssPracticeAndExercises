@@ -38,7 +38,7 @@
      border: 1rem dotted yellowgreen;
      margin: 1rem;
      padding: 0.5rem;
-     /* 20 px */
+     
  }
  /* em calculate its in relation to other elements,
  for example incase of font-size property it will calculate length in relation to its parent elments, but for other properties it will first see font-size and then calculate it accordingly.  */
