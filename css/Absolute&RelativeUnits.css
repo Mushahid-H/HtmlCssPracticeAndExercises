@@ -1,0 +1,49 @@
+/* The absolute units always indicate a fixed length,
+ while with the relative units the length is always 
+ calculated in relation to other elements like parent. */
+
+ /* Absolute units: mm,cm,px,in,pt,pc etc. */
+ p{
+     font-size: 12px;
+    /* 1-inch=2.54cm
+       1-inch=96px
+       1-inch=72pt
+       1-pc=12-pt 
+       1-px=.75-pt*/
+    font-size: 96px;
+ }
+ /* %, em, rem */
+ /*   */
+ .classs{
+     border: 5px solid red;
+     font-size: 20px;
+     text-align: center;
+ }
+ .classs p{
+     /* it will take 200 percent or twice as length as its parent. */
+     /* it is mostly used for width. */
+     font-size: 200%;
+     border: 5px dashed green;
+     /* It will take half width as its parent */
+     width: 50%; 
+     margin: auto;   
+ }
+ /* rem calculates length in relation to root elemtent that is <html> */
+ 
+ html{
+     font-size: 10px;
+ }
+ .classs + p{ 
+     font-size: 2rem;
+     border: 1rem dotted yellowgreen;
+     margin: 1rem;
+     padding: 0.5rem;
+     
+ }
+ /* em calculate its in relation to other elements,
+ for example incase of font-size property it will calculate length in relation to its parent elments, but for other properties it will first see font-size and then calculate it accordingly.  */
+ .class1 p{
+     font-size: 2em;
+     border: 2em solid goldenrod;
+     /* if you inspect it you will find that it it first saw the font-size which is 2*10=20 and then multiplied 2 of border width and the total calculated width for border became 40px. same is the case with other properties. */
+ }
