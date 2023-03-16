@@ -1,0 +1,33 @@
+html{
+    margin:10px;
+    background-color: black;
+}
+.newCon{
+    padding-bottom:2cm;
+    background-color:#553592;    
+}
+
+header{
+    font-size: 30px;
+    color:#CBC3E3;
+    float:left;
+    padding-left:2cm;
+}
+nav{
+    float:right;
+    padding-right:1cm;
+}
+
+nav button{
+    color:lightgray;
+    background-color:#301934;
+    font-size:20px;
+    margin:10px;
+    padding:10px;
+    border-radius:1mm;
+}
+nav button:hover{
+    color:white;
+    font-weight: bolder;
+    background-color: purple;
+}
