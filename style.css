@@ -31,3 +31,36 @@ nav button:hover{
     font-weight: bolder;
     background-color: purple;
 }
+#all-conversion-section{
+    display: grid;
+    align-items: center;
+}
+
+figure{
+    float:left;
+    justify-content: auto;
+    width: 200px;
+
+}
+img{
+    width: 200px;
+}
+figcaption{
+
+    color:black;
+    font-size:17px;
+    text-align: center;
+}
+
+button{
+    font-size:20px;
+    border-radius:40px;
+    border: transparent;
+    width:fit-content;
+    background-color: rgb(173, 218, 173);
+    padding-right: 15px;
+    padding-left: 15px;
+}
+button:hover {
+    cursor: pointer;
+}
