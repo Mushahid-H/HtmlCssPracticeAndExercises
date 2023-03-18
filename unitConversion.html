@@ -3,6 +3,8 @@
 <head>
     <title>Unit Conversion</title>
     <link rel="stylesheet" href="style.css">
+    <script src="script.js">
+    </script>
 </head>
 <body>
     <section id="home">
@@ -30,12 +32,13 @@
                         <fieldset>
                             <legend>Temprature</legend>
                                 <label for="Temprature">Celsius</label><br>
-                                <input type="number" id="c"><br>
+                                <input type="number" id="celsius"><br>
 
-                                <button id="temprature">Convert</button><br>
-
-                                <input type="number" id="f"><br>
-                                <label for="Temprature">Fahrenheit</label><br>
+                                <button id="temprature" onclick=temprature()>Convert</button><br>
+                                
+                               
+                                <input type="number" id="fahrenheit"><br>
+                                <label for="Temprature">Fahrenheit :</label><br>
                                 
                         </fieldset>
                     </article>
@@ -56,12 +59,12 @@
                             
 
                             <label for="Weight">KiloGram</label><br>
-                            <input type="number" id="kg"><br>
+                            <input type="number" id="kilo"><br>
                             
-                            <button id="weight">Convert</button><br>
+                            <button id="weight" onclick=weight()>Convert</button><br>
 
-                            <input type="number"><br>
-                            <label for="Weight" id="lbs">Pounds</label><br>
+                            <input type="number" id="pounds"><br>
+                            <label for="Weight" >Pounds</label><br>
                         </fieldset>
                     </article>
                     <aside>To convert kilograms to pounds yourself, use this formula replacing the `kg` with your weight in kilograms: kg x 2.205</aside>
@@ -81,10 +84,10 @@
                             <label for="Distance">KiloGram</label><br>
                             <input type="number" id="km"><br>
                             
-                            <button id="distance">Convert</button><br>
+                            <button id="distance" onclick=distance()>Convert</button><br>
 
-                            <input type="number"><br>
-                            <label for="Distance" id="m">Pounds</label><br>
+                            <input type="number" id="miles"><br>
+                            <label for="Distance" >Pounds</label><br>
                         </fieldset>
                     </article>
                     <aside> To convert kilometers to miles yourself, use this formula replacing the `km` with your distance in kilmeters: km &divide; 1.609</aside>
