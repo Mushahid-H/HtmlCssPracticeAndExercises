@@ -1,0 +1,65 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    padding: 0;
+    margin: 0;
+}
+.art1{
+    background-color: aqua;
+    border-radius: 5px;
+    color:black;
+    padding:5px;
+}
+.art2{
+    background-color:blueviolet;
+    border-radius: 5px;
+    color:whitesmoke;
+    padding:5px;
+}
+.art3{
+    background-color: beige;
+    border-radius: 5px;
+    color:black;
+    padding:5px;
+}
+
+.art4{
+    background-color:cadetblue;
+    border-radius: 5px;
+    color:black;
+    padding:5px;
+}
+.art5{
+    background-color:blue;
+    border-radius: 5px;
+    color:beige;
+    padding:5px;
+}
+main{
+    display: grid;
+    gap:1rem;
+    grid-template-columns: repeat(4, 1fr);
+}
+.grid-col-span-2{
+    grid-column: span 2;
+}
+.grid-row-span-2{
+    grid-column-start:4;
+    grid-row:1/span 2;
+}
+
+@media screen and (max-width: 780px){
+  
+    main{
+        display: contents;
+       margin:5px;
+    }
+    main .articles{
+        margin-bottom: 1rem;
+    }
+    
+}
+    
